@@ -1,0 +1,18 @@
+{
+    "name": "kmcculloch/phpspec-code-sniffer",
+    "description": "Very simple PHPSpec code sniffing, based on PSR1 and PSR2",
+    "version": "0.1",
+    "keywords": ["PHPSpec", "code", "sniffer", "standards", "PHP_CodeSniffer"],
+    "require": {
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "license": "GPL-3.0+",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Kevin McCulloch",
+            "email": "p.kevin.mcculloch@gmail.com",
+            "role": "Creator"
+        }
+    ]
+}
