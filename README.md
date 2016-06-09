@@ -15,16 +15,20 @@ ruleset if others find this useful.
 ## Global Installation
 
 If you have phpcs installed globally (which generally involves running
-composer global require squizlabs/php_codesniffer:~2.0 and adding ~/.composer/vendor/bin to your $PATH), you can add this ruleset like so:
+`composer global require squizlabs/php_codesniffer:~2.0` and adding `~/.composer/vendor/bin` to your `$PATH`), you can add this ruleset like so:
 
 ```
-composer global config repositories.phpspec-code-sniffer vcs https://github.com/kmcculloch/phpspec-code-sniffer
-
+# Append the "@dev" to tell composer that you're cool installing a global
+# package that isn't flagged "stable":
 composer global require kmcculloch/phpspec-code-sniffer:~0.1@dev
 
+# Tell phpcs where to find the ruleset:
 phpcs --config-set installed_paths ~/.composer/vendor/kmcculloch/phpspec-code-sniffer/
 
 # Run the following and confirm that you can see "PHPSpec" in the list of
 # installed standards:
 phpcs -i
+
+# Sniff your code:
+phpcs --standard=PHPSpec ~/path/to/MyClassSpec.php
 ```
