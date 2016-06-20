@@ -18,9 +18,7 @@ If you have phpcs installed globally (which generally involves running
 `composer global require squizlabs/php_codesniffer:~2.0` and adding `~/.composer/vendor/bin` to your `$PATH`), you can add this ruleset like so:
 
 ```
-# Append the "@dev" to tell composer that you're cool installing a global
-# package that isn't flagged "stable":
-composer global require kmcculloch/phpspec-code-sniffer:~0.1@dev
+composer global require kmcculloch/phpspec-code-sniffer:1.x-dev
 
 # Tell phpcs where to find the ruleset:
 phpcs --config-set installed_paths ~/.composer/vendor/kmcculloch/phpspec-code-sniffer/
