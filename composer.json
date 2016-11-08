@@ -1,7 +1,6 @@
 {
     "name": "kmcculloch/phpspec-code-sniffer",
     "description": "Very simple PHPSpec code sniffing, based on PSR1 and PSR2",
-    "version": "0.1",
     "keywords": ["PHPSpec", "code", "sniffer", "standards", "PHP_CodeSniffer"],
     "require": {
         "squizlabs/php_codesniffer": "~2.0"
