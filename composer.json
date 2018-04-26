@@ -3,7 +3,7 @@
     "description": "Very simple PHPSpec code sniffing, based on PSR1 and PSR2",
     "keywords": ["PHPSpec", "code", "sniffer", "standards", "PHP_CodeSniffer"],
     "require": {
-        "squizlabs/php_codesniffer": "~2.0"
+        "squizlabs/php_codesniffer": "~2.0 || ~3.0"
     },
     "license": "GPL-3.0+",
     "authors": [
